@@ -1,0 +1,44 @@
+........... commandes Linux courantes avec leurs rôles :
+
+1. **ls** : Liste les fichiers et les répertoires dans le répertoire courant.
+2. **pwd** : Affiche le chemin du répertoire de travail actuel.
+3. **cd** : Change de répertoire.
+   - `cd dossier` : Se déplace dans le dossier spécifié.
+   - `cd ..` : Remonte d'un niveau dans l'arborescence.
+   - `cd ~` : Retourne au répertoire personnel de l'utilisateur.
+4. **mkdir** : Crée un nouveau répertoire.
+   - `mkdir nom_dossier` : Crée un dossier avec le nom spécifié.
+5. **touch** : Crée un nouveau fichier vide ou actualise la date de modification d'un fichier existant.
+   - `touch nom_fichier` : Crée un fichier avec le nom spécifié.
+6. **rm** : Supprime des fichiers ou des répertoires.
+   - `rm nom_fichier` : Supprime un fichier.
+   - `rm -r nom_dossier` : Supprime un répertoire et son contenu de manière récursive.
+7. **cp** : Copie des fichiers ou des répertoires.
+   - `cp source destination` : Copie la source vers la destination.
+   - `cp -r source destination` : Copie récursivement un répertoire.
+8. **mv** : Déplace ou renomme des fichiers ou des répertoires.
+   - `mv source destination` : Déplace la source vers la destination ou renomme le fichier/répertoire.
+9. **cat** : Affiche le contenu d'un fichier.
+   - `cat nom_fichier` : Affiche le contenu du fichier spécifié.
+10. **more** ou **less** : Permet de lire le contenu d'un fichier page par page.
+   - `more nom_fichier` : Affiche le contenu du fichier par pages.
+   - `less nom_fichier` : Permet une navigation plus conviviale dans le contenu.
+11. **head** et **tail** : Affichent les premières ou les dernières lignes d'un fichier.
+   - `head nom_fichier` : Affiche les premières lignes du fichier.
+   - `tail nom_fichier` : Affiche les dernières lignes du fichier.
+12. **grep** : Recherche un motif dans un fichier ou une sortie.
+   - `grep motif fichier` : Recherche le motif spécifié dans le fichier.
+13. **find** : Recherche des fichiers ou des répertoires dans une arborescence.
+   - `find répertoire -type f -name "nom_fichier"` : Recherche un fichier par nom.
+   - `find répertoire -type d -name "nom_dossier"` : Recherche un répertoire par nom.
+14. **chmod** : Modifie les permissions d'un fichier ou d'un répertoire.
+   - `chmod permissions fichier` : Modifie les permissions d'un fichier.
+15. **chown** : Modifie le propriétaire d'un fichier ou d'un répertoire.
+   - `chown utilisateur:groupe fichier` : Change le propriétaire et le groupe d'un fichier.
+16. **ps** : Affiche les processus en cours d'exécution.
+   - `ps aux` : Affiche tous les processus en cours d'exécution.
+17. **kill** : Envoie un signal à un processus pour le terminer.
+   - `kill PID` : Envoie un signal de terminaison à un processus spécifié par son ID de processus (PID).
+18. **top** : Affiche les informations en temps réel sur l'utilisation du CPU et de la mémoire.
+19. **df** : Affiche l'utilisation de l'espace disque.
+20. **du** : Affiche la taille des répertoires et de leurs sous-répertoires.
